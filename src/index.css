@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Anta&family=Metrophobic&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+/* base style */
+* {
+  font-family: "Anta", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #212121;
+  color: #f1f1f1;
+  width: 100vw;
+  height: 100vh;
+  background-image: url("./assets/homePage/bg1.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.btn {
+  border: 0;
+  outline: 0;
+  padding: 0.6vw 1.2vw;
+  font-size: 1.3vw;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 0.5vw;
+  border: 0.1vw solid black;
+  background-color: #042b6b;
+  color: #fff;
+}
+
+.flex-row-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-col-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
